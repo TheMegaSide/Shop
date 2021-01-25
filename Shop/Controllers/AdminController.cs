@@ -8,7 +8,7 @@ namespace Shop.UI.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult GetProducts() = > new GetProducts ;
+      
 
     }
 }

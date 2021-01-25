@@ -19,7 +19,7 @@ namespace Shop.Application.GetProducts
             {
                 Name=x.Name,
                 Description = x.Description,
-                Value = $"$ {x.Value.ToString("N2")}",
+                Value = x.Value,
             });
         }
     }
